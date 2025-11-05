@@ -1,0 +1,10 @@
+user = input("Digite algo: ")
+
+print(f"O tipo primitivo desse valor e {type(user)}")
+print(f"So tem espacos? {user.isspace()}")
+print(f"E um numero? {user.isnumeric()}")
+print(f"E alfabetico? {user.isalpha()}")
+print(f"E alfanumerico? {user.isalnum()}")
+print(f"Esta em maiusculas? {user.isupper()}")
+print(f"Esta em minusculas? {user.islower()}")
+print(f"Esta capitalizada? {user.istitle()}")
